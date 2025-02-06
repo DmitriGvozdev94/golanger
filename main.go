@@ -9,5 +9,7 @@ import (
 	"github.com/gofiber/fiber/v2"
 	_ "github.com/alexbrainman/odbc"
 	_ "github.com/databricks/databricks-sql-go"
+	_ "github.com/gofiber/swagger"
+	_ "github.com/swaggo/swag/cmd/swag"
 
 )
